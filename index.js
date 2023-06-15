@@ -1,8 +1,7 @@
-let divide = (a, b = 100) => {
+let divide = (a=2000, b = 100) => {
     return a / b;
 };
 
-console.log(divide(2000, 100)); 
 
 let square = (multiply) => {
     return multiply * multiply;
